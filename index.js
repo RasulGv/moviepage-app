@@ -36,7 +36,7 @@ async function movie(url) {
 }
 
 function act() {
-    const kin = `http://www.omdbapi.com/?apikey=${apiKey}&s=${searchInput.value}`;
+    const kin = `https://www.omdbapi.com/?apikey=${apiKey}&s=${searchInput.value}`;
     movie(kin);
 }
 
