@@ -1,0 +1,42 @@
+.footer{
+    padding: 30px 4%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.foooter-icons{
+    display: flex;
+    gap: 20px;
+    margin: 40px 0;
+
+}
+
+.foooter-icons .icon{
+   width: 40px;
+   cursor: pointer;
+}
+
+.footer ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 0.938rem;
+    margin-bottom: 30px;
+    list-style: none;
+}
+
+.copyright{
+   color: gray; 
+   font-size: 0.875rem;
+}
+
+@media (max-width:800px){
+    .foooter-icons .icon{
+        width: 25px;
+    }
+
+    .foooter ul{
+       grid-template-columns: auto auto; 
+       gap: 0.5rem;
+       font-size: 0.875rem;
+    }
+}
