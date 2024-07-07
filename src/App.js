@@ -25,7 +25,7 @@ onAuthStateChanged(auth, async(user)=>{
     navigate('/login');
   }
 })
-},[navigate])
+},[])
 
   return (
     <div className="App">
