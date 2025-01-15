@@ -1,4 +1,3 @@
-// import React, { useEffect, useRef } from 'react'
 import logo from '../../assests/logo.jpg'
 import { IoSearchOutline } from "react-icons/io5";
 import { FaRegBell } from "react-icons/fa";
